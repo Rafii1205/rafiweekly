@@ -2,10 +2,14 @@
     <head>
         <title>WEBTI | 25</title>
     </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <style>
         body{
             margin: 0;
             padding: 0;
+            font-family: 'Poppins';
         }
         header{
             display: flex;
@@ -14,7 +18,6 @@
             width: 80%;
             height: 50px;
             margin-left: 10%;
-            /* align-items: c1enter; */
             justify-content: center;
             border-radius: 16px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
@@ -23,23 +26,18 @@
         }
         nav{
             display: flex;
-            /* background-color: red; */
-            /* align-items: center; */
-            /* justify-content: center; */
-            /* justify-items: center; */
-            /* align-content:center ; */
+            align-items: center;
+            justify-content: center;
         }
         nav a{
             text-align: center;
-            color: wheat;
-            font-weight: bold;
-            /* list-style-type: none; */
+            color: cornsilk;
+            font-weight: 500;
             text-decoration: none;
         }
         ul{
          display: flex;
          gap: 20px;
-         /* align-content: end; */
          justify-content: end;
          margin-right: 20px;
         }
@@ -50,16 +48,19 @@
             display: flex;
             margin: 120px;
         }
+        span{
+            color: rgb(110, 21, 194);
+        }
         section{
             display: flex;
             gap: 200px;    
         }
         button{
             border-radius: 12px;
-            height: 35px;
-            width: 150px;
+            height: 30px;
+            width: 100px;
             border: none;
-            background-color: aqua;
+            background-color: rgb(171, 108, 230);
             box-shadow: 3px 4px rgb(0, 0, 0);
         }
         button a{
@@ -76,8 +77,11 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: aqua;
+            background-color:  rgba(0, 0, 0, 0.7);
             height: 40px;
+        }
+        footer p{
+            color: cornsilk;
         }
 
     </style>
@@ -85,8 +89,8 @@
         <header>
             <nav>
             <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -94,7 +98,7 @@
         <section>
         <article>
         <h1>WEBTI | MRA</h1>
-        <h3>I'm Muhammad Rafi Alfiansyah</h3>
+        <h2>I'm <span>Muhammad Rafi Alfiansyah</span></h2>
         <p>UNIMUS | TEKNOLOGI INFORMASI | IT ENTHUSIAST </p>
         <button><a href="tentang.html">ABOUT ME</a></button>
         </article>
